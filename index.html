@@ -10,32 +10,21 @@ body{font-family:Arial,sans-serif;background:#f5f5f5;color:#111;padding:0}
 .wrap{max-width:860px;margin:0 auto;padding:14px 14px 40px}
 h1{text-align:center;font-size:22px;margin:10px 0 4px}
 .sub{text-align:center;color:#888;font-size:13px;margin-bottom:12px}
-
-/* Tabs */
 .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;justify-content:center}
 .tab{padding:9px 14px;border-radius:10px;border:1px solid #ddd;background:#fff;color:#666;font-size:13px;font-weight:700;cursor:pointer}
 .tab.on{background:#111;color:#fff;border-color:#111}
 .daytabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
 .dt{padding:6px 10px;border-radius:8px;border:1px solid #ddd;background:#fff;color:#666;font-size:12px;font-weight:700;cursor:pointer}
 .dt.on{background:#111;color:#fff;border-color:#111}
-
-/* Sections */
-.sec{display:none}
-.sec.on{display:block}
-
-/* Cards */
+.sec{display:none}.sec.on{display:block}
 .card{background:#fff;border-radius:14px;padding:0;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,.07);overflow:hidden}
 .ch{padding:12px 14px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
-.ct{font-size:16px;font-weight:800}
-.cm{font-size:12px;color:#888;margin-top:2px}
+.ct{font-size:16px;font-weight:800}.cm{font-size:12px;color:#888;margin-top:2px}
 .tag{font-size:11px;font-weight:700;color:#92400E;background:#FEF3C7;border:1px solid #FCD34D;padding:3px 10px;border-radius:99px;white-space:nowrap;height:fit-content}
-
-.bl{padding:12px 14px;border-bottom:1px solid #f5f5f5}
-.bl:last-child{border-bottom:none}
+.bl{padding:12px 14px;border-bottom:1px solid #f5f5f5}.bl:last-child{border-bottom:none}
 .bt{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:6px}
 .badge{font-size:11px;font-weight:800;padding:3px 10px;border-radius:99px}
-.solo{background:#EEF2FF;color:#3730A3}
-.jun{background:#ECFDF5;color:#065F46}
+.solo{background:#EEF2FF;color:#3730A3}.jun{background:#ECFDF5;color:#065F46}
 .time{margin-left:auto;color:#aaa;font-size:11px;font-weight:700}
 .bti{font-weight:800;font-size:14px;margin-bottom:2px}
 .bd{font-size:13px;line-height:1.5;color:#555}
@@ -43,64 +32,50 @@ h1{text-align:center;font-size:22px;margin:10px 0 4px}
 .sp{font-size:11px;padding:3px 9px;border-radius:99px;border:1px solid #e5e5e5;background:#fafafa;color:#555}
 .sp.s{background:#FEF3C7;color:#92400E;border-color:#FCD34D}
 .tip{margin-top:8px;border-radius:8px;padding:7px 10px;font-size:12px;line-height:1.4}
-.tp{background:#FFF0F6;color:#BE185D}
-.tw{background:#FFFBEB;color:#B45309}
-.tg{background:#F5F5F5;color:#555}
-
-/* Day cards */
-.day{display:none}
-.day.on{display:block}
-
-/* Cost tables */
+.tp{background:#FFF0F6;color:#BE185D}.tw{background:#FFFBEB;color:#B45309}.tg{background:#F5F5F5;color:#555}
+.day{display:none}.day.on{display:block}
 .cb{background:#fff;border-radius:14px;margin-bottom:10px;box-shadow:0 2px 8px rgba(0,0,0,.07);overflow:hidden}
 .cbh{padding:10px 14px;background:#f8f8f8;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center}
 .cbt{font-size:13px;font-weight:800}
 .cols{display:flex;justify-content:flex-end;padding:5px 14px;background:#fafafa;border-bottom:1px solid #f0f0f0;font-size:10px;color:#9ca3af;font-weight:900;text-transform:uppercase;letter-spacing:.3px}
 .cols span{width:90px;text-align:right}
-.cr{display:flex;justify-content:space-between;gap:8px;padding:8px 14px;border-bottom:1px solid #f5f5f5;align-items:flex-start}
-.cr:last-child{border-bottom:none}
-.cl{flex:1;color:#555;font-size:13px}
-.cn{display:block;font-size:10px;color:#9ca3af;margin-top:1px}
-.cp{display:flex}
-.cp span{width:90px;text-align:right;font-weight:800;font-size:12px;color:#111}
+.cr{display:flex;justify-content:space-between;gap:8px;padding:8px 14px;border-bottom:1px solid #f5f5f5;align-items:flex-start}.cr:last-child{border-bottom:none}
+.cl{flex:1;color:#555;font-size:13px}.cn{display:block;font-size:10px;color:#9ca3af;margin-top:1px}
+.cp{display:flex}.cp span{width:90px;text-align:right;font-weight:800;font-size:12px;color:#111}
 .dim{color:#9ca3af !important;font-weight:700 !important}
 .csub{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;background:#F0FDF4;border-top:1px solid #D1FAE5;font-weight:900}
 .csub .cp span{font-size:12px;color:#065F46}
-.grand{border:2px solid #D1FAE5}
-.grand .cbh{background:#E0F9E8}
-.cost{color:#065F46;font-weight:bold}
+.grand{border:2px solid #D1FAE5}.grand .cbh{background:#E0F9E8}
 .sm{font-size:11px;color:#9ca3af}
-
-/* Reservas */
 .pri{display:inline-block;font-size:10px;font-weight:800;padding:2px 8px;border-radius:99px;margin-left:auto}
-.urg{background:#FEE2E2;color:#991B1B}
-.med{background:#FEF3C7;color:#92400E}
-.low{background:#E0E7FF;color:#3730A3}
+.urg{background:#FEE2E2;color:#991B1B}.med{background:#FEF3C7;color:#92400E}.low{background:#E0E7FF;color:#3730A3}
 .chk{display:flex;gap:8px;align-items:flex-start;margin-top:8px}
 .chk input{margin-top:2px;transform:scale(1.15)}
 .chk label{font-size:12px;color:#555;cursor:pointer}
-
-/* Links */
-a{color:#3730A3;text-decoration:none}
-a:hover{text-decoration:underline}
+a{color:#3730A3;text-decoration:none}a:hover{text-decoration:underline}
+.lnk{display:inline-block;font-size:12px;margin-top:4px;padding:4px 10px;border:1px solid #3730A3;border-radius:6px;color:#3730A3}
+.lnk:hover{background:#3730A3;color:#fff;text-decoration:none}
+.mapgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:500px){.mapgrid{grid-template-columns:1fr}}
+.mapcard{background:#fff;border-radius:10px;padding:10px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.mapcard b{font-size:12px}.mapcard a{font-size:11px}
 </style>
 </head>
 <body>
 <div class="wrap">
-
 <h1>🗽 NYC — 19 al 25 de mayo 2026</h1>
-<p class="sub">Itinerario completo · costos · reservas · restaurantes</p>
+<p class="sub">Itinerario · costos · reservas · restaurantes · mapas</p>
 
 <div class="tabs">
 <button class="tab on" onclick="sec('it')">📅 Itinerario</button>
 <button class="tab" onclick="sec('co')">💰 Costos</button>
 <button class="tab" onclick="sec('re')">📋 Reservas</button>
 <button class="tab" onclick="sec('fo')">🍽️ Restaurantes</button>
+<button class="tab" onclick="sec('ma')">📍 Mapas</button>
 </div>
 
 <!-- ============ ITINERARIO ============ -->
 <div class="sec on" id="it">
-
 <div class="daytabs">
 <button class="dt on" onclick="dy(0)">Mar 19</button>
 <button class="dt" onclick="dy(1)">Mié 20</button>
@@ -136,16 +111,16 @@ a:hover{text-decoration:underline}
 <!-- DAY 3 -->
 <div class="card day" data-d="3">
 <div class="ch"><div><div class="ct">Viernes 22 — Top of the Rock</div><div class="cm">Día libre</div></div><span class="tag">Rockefeller</span></div>
-<div class="bl"><div class="bt"><span class="badge solo">Solo</span><span class="time">Mañana</span></div><div class="bti">Top of the Rock → Bryant Park → 5ª Av</div><div class="bd">Mejor vista clásica de NYC (Empire State + Central Park). Después Bryant Park y 5ª Avenida.</div><div class="spots"><span class="sp s">Top of the Rock</span><span class="sp">Bryant Park</span><span class="sp">5ª Av</span></div></div>
+<div class="bl"><div class="bt"><span class="badge solo">Solo</span><span class="time">Mañana</span></div><div class="bti">Top of the Rock → Bryant Park → 5ª Av</div><div class="bd">Mejor vista clásica de NYC (Empire State + Central Park).</div><div class="spots"><span class="sp s">Top of the Rock</span><span class="sp">Bryant Park</span><span class="sp">5ª Av</span></div></div>
 <div class="bl"><div class="bt"><span class="badge solo">Solo</span><span class="time">Tarde → Noche</span></div><div class="bti">Williamsburg → East Village</div><div class="bd">Línea L a Williamsburg (street art, Domino Park). East Village para ramen o slice.</div><div class="spots"><span class="sp">Williamsburg</span><span class="sp">Domino Park</span><span class="sp">East Village</span></div></div>
 </div>
 
 <!-- DAY 4 -->
 <div class="card day" data-d="4">
-<div class="ch"><div><div class="ct">Sábado 23 — DÍA CLAVE ❤️</div><div class="cm">Juntos todo el día · Solomun 18:00</div></div><span class="tag">Kips Bay</span></div>
+<div class="ch"><div><div class="ct">Sábado 23 — DÍA CLAVE ❤️</div><div class="cm">Juntos todo el día · Solomun 15:00</div></div><span class="tag">Kips Bay</span></div>
 <div class="bl"><div class="bt"><span class="badge jun">♥ Juntos</span><span class="time">Mañana</span></div><div class="bti">🚲 Central Park en bici</div><div class="bd">Bow Bridge, lago, Strawberry Fields. Si llueve: caminata + café.</div><div class="spots"><span class="sp s">Bici Central Park</span><span class="sp s">Bow Bridge</span></div><div class="tip tp">♥ Bow Bridge = spot romántico top.</div></div>
-<div class="bl"><div class="bt"><span class="badge jun">♥ Juntos</span><span class="time">Temprano tarde</span></div><div class="bti">✨ SUMMIT One Vanderbilt</div><div class="bd">Experiencia inmersiva (espejos + vistas). Reserva con horario fijo. Se paga aparte (no entra en pases).</div><div class="spots"><span class="sp s">SUMMIT</span><span class="sp">Grand Central</span></div><div class="tip tg">💡 Lentes de sol (reflejos). Evitar falda/vestido por piso espejado.</div></div>
-<div class="bl"><div class="bt"><span class="badge jun">♥ Juntos</span><span class="time">16:30 → 18:00+</span></div><div class="bti">🎧 Solomun @ Fulton Fish Market</div><div class="bd">Evento Teksupport open-air. Ubicación: <b>800 Food Center Drive, Hunts Point, BRONX</b>. Empieza 15:00, ustedes llegan ~18:00. Salir de Midtown ~16:30–17:00.</div><div class="spots"><span class="sp s">Solomun</span><span class="sp s">Fulton Fish Market</span><span class="sp">Bronx</span></div><div class="tip tw">⚠ El venue está en el BRONX (no Manhattan). Metro o Uber ~40–60 min desde Midtown. Salir con margen.</div></div>
+<div class="bl"><div class="bt"><span class="badge jun">♥ Juntos</span><span class="time">Temprano tarde</span></div><div class="bti">✨ SUMMIT One Vanderbilt</div><div class="bd">Experiencia inmersiva (espejos + vistas). Reserva con horario fijo.</div><div class="spots"><span class="sp s">SUMMIT</span><span class="sp">Grand Central</span></div><div class="tip tg">💡 Lentes de sol (reflejos). Evitar falda/vestido por piso espejado.</div></div>
+<div class="bl"><div class="bt"><span class="badge jun">♥ Juntos</span><span class="time">16:30 → 18:00+</span></div><div class="bti">🎧 Solomun @ Fulton Fish Market</div><div class="bd">Evento Teksupport open-air. <b>800 Food Center Drive, Hunts Point, BRONX</b>. Empieza 15:00, ustedes llegan ~18:00.</div><div class="spots"><span class="sp s">Solomun</span><span class="sp s">Fulton Fish Market</span><span class="sp">Bronx</span></div><div class="tip tw">⚠ El venue está en el BRONX (no Manhattan). Metro o Uber ~40–60 min. Salir con margen.</div></div>
 </div>
 
 <!-- DAY 5 -->
@@ -159,9 +134,8 @@ a:hover{text-decoration:underline}
 <div class="card day" data-d="6">
 <div class="ch"><div><div class="ct">Lunes 25 — Vuelo 19:50</div><div class="cm">Mañana libre · Aeropuerto ~15:00</div></div><span class="tag">Kips Bay</span></div>
 <div class="bl"><div class="bt"><span class="badge solo">Solo</span><span class="time">Mañana</span></div><div class="bti">Café + últimas compras</div><div class="bd">Mañana tranquila cerca de 120 E 31st.</div></div>
-<div class="bl"><div class="bt"><span class="badge solo">Solo</span><span class="time">~15:00</span></div><div class="bti">Salida a JFK</div><div class="bd">AirTrain vía Jamaica Station. Salir con margen.</div><div class="tip tw">⚠ Lunes tarde puede estar pesado. Salir temprano.</div></div>
+<div class="bl"><div class="bt"><span class="badge solo">Solo</span><span class="time">~15:00</span></div><div class="bti">Salida a JFK</div><div class="bd">AirTrain vía Jamaica Station.</div><div class="tip tw">⚠ Lunes tarde puede estar pesado. Salir temprano.</div></div>
 </div>
-
 </div>
 
 <!-- ============ COSTOS ============ -->
@@ -177,11 +151,13 @@ a:hover{text-decoration:underline}
 </div>
 
 <div class="cb">
-<div class="cbh"><span class="cbt">🎟️ Pases / Miradores / Museos</span></div>
+<div class="cbh"><span class="cbt">🏟️ Miradores / Museos (por separado)</span></div>
 <div class="cols"><span>🙋‍♂️ Yo</span><span>🙋‍♀️ Ella</span></div>
-<div class="cr"><div class="cl">Go City Pass x3<span class="cn">Top of the Rock + 9/11 + Museo Natural (SOLO YO)</span></div><div class="cp"><span>~$131</span><span class="dim">—</span></div></div>
-<div class="cr"><div class="cl">SUMMIT One Vanderbilt<span class="cn">Se paga aparte · no entra en pases</span></div><div class="cp"><span>~$45–55</span><span>~$45–55</span></div></div>
-<div class="csub"><span>Subtotal</span><div class="cp"><span>~$176–186</span><span>~$45–55</span></div></div>
+<div class="cr"><div class="cl">Top of the Rock<span class="cn">rockefellercenter.com · ~$42–45</span></div><div class="cp"><span>~$42–45</span><span class="dim">—</span></div></div>
+<div class="cr"><div class="cl">9/11 Museum<span class="cn">911memorial.org · ~$36</span></div><div class="cp"><span>~$36</span><span class="dim">—</span></div></div>
+<div class="cr"><div class="cl">Museo Historia Natural<span class="cn">amnh.org · ~$37</span></div><div class="cp"><span>~$37</span><span class="dim">—</span></div></div>
+<div class="cr"><div class="cl">SUMMIT One Vanderbilt<span class="cn">summitov.com · se paga aparte</span></div><div class="cp"><span>~$45–55</span><span>~$45–55</span></div></div>
+<div class="csub"><span>Subtotal</span><div class="cp"><span>~$160–173</span><span>~$45–55</span></div></div>
 </div>
 
 <div class="cb">
@@ -225,51 +201,46 @@ a:hover{text-decoration:underline}
 <div class="cb grand">
 <div class="cbh"><span class="cbt">💵 TOTAL (sin vuelos)</span></div>
 <div class="cols"><span>🙋‍♂️ Yo</span><span>🙋‍♀️ Ella</span></div>
-<div class="cr"><div class="cl"><b>Total por persona</b></div><div class="cp"><span>~$831–1,031</span><span>~$700–900</span></div></div>
-<div class="cr"><div class="cl"><b>Total juntos</b></div><div class="cp"><span style="width:180px;text-align:right">~$1,531–1,931</span></div></div>
+<div class="cr"><div class="cl"><b>Total por persona</b></div><div class="cp"><span>~$815–1,018</span><span>~$700–900</span></div></div>
+<div class="cr"><div class="cl"><b>Total juntos</b></div><div class="cp"><span style="width:180px;text-align:right">~$1,515–1,918</span></div></div>
+<div class="bl"><div class="sm">Nota: el rango cambia según tipo de cena (pizza vs Cecconi's) y opciones de transporte.</div></div>
 </div>
-
 </div>
 
 <!-- ============ RESERVAS ============ -->
 <div class="sec" id="re">
-
 <div class="card">
-<div class="ch"><div><div class="ct">📋 Reservas por prioridad</div></div></div>
+<div class="ch"><div><div class="ct">📋 Reservas por prioridad</div><div class="cm">Con links directos de agendamiento</div></div></div>
 
-<div class="bl"><div class="bt"><span class="bti">🎧 Solomun (entradas)</span><span class="pri urg">Urgente</span></div><div class="bd">Ya compradas — $100 c/u ✅</div></div>
+<div class="bl"><div class="bt"><span class="bti">✨ SUMMIT One Vanderbilt</span><span class="pri urg">Urgente</span></div><div class="bd">2 entradas con horario fijo (sunset se agota).</div><a class="lnk" href="https://summitov.com" target="_blank">🔗 Reservar en summitov.com</a><div class="chk"><input type="checkbox" id="r1"><label for="r1">Reservar SUMMIT (2 entradas)</label></div></div>
 
-<div class="bl"><div class="bt"><span class="bti">✨ SUMMIT One Vanderbilt</span><span class="pri urg">Urgente</span></div><div class="bd">Comprar con horario fijo (sunset se agota). 2 entradas.</div><div class="chk"><input type="checkbox" id="r1"><label for="r1">Reservar SUMMIT (2 entradas)</label></div></div>
+<div class="bl"><div class="bt"><span class="bti">🎭 Broadway</span><span class="pri urg">Urgente</span></div><div class="bd">Definir show y comprar para domingo noche.</div><a class="lnk" href="https://www.broadway.com" target="_blank">🔗 broadway.com</a> <a class="lnk" href="https://www.telecharge.com" target="_blank">🔗 telecharge.com</a><div class="chk"><input type="checkbox" id="r2"><label for="r2">Comprar Broadway</label></div></div>
 
-<div class="bl"><div class="bt"><span class="bti">🎭 Broadway</span><span class="pri urg">Urgente</span></div><div class="bd">Definir show y comprar para domingo noche.</div><div class="chk"><input type="checkbox" id="r2"><label for="r2">Comprar Broadway</label></div></div>
+<div class="bl"><div class="bt"><span class="bti">🍽️ Cena West Village</span><span class="pri urg">Urgente</span></div><div class="bd">Café Cluny / Don Angie / Buvette.</div><a class="lnk" href="https://resy.com" target="_blank">🔗 Resy</a> <a class="lnk" href="https://www.opentable.com" target="_blank">🔗 OpenTable</a><div class="chk"><input type="checkbox" id="r3"><label for="r3">Reservar cena domingo</label></div></div>
 
-<div class="bl"><div class="bt"><span class="bti">🍽️ Cena West Village</span><span class="pri urg">Urgente</span></div><div class="bd">Café Cluny / Don Angie / Buvette (walk-in).</div><div class="chk"><input type="checkbox" id="r3"><label for="r3">Reservar cena domingo</label></div></div>
+<div class="bl"><div class="bt"><span class="bti">🧠 9/11 Museum</span><span class="pri med">Media</span></div><div class="bd">Reservar horario con anticipación. ~$36.</div><a class="lnk" href="https://www.911memorial.org/visit" target="_blank">🔗 911memorial.org</a><div class="chk"><input type="checkbox" id="r4"><label for="r4">Comprar entrada 9/11</label></div></div>
 
-<div class="bl"><div class="bt"><span class="bti">🎟️ Go City Pass x3</span><span class="pri med">Media</span></div><div class="bd">Comprar pase de 3 atracciones (solo tú).</div><div class="chk"><input type="checkbox" id="r4"><label for="r4">Comprar Go City Pass</label></div></div>
+<div class="bl"><div class="bt"><span class="bti">🏙️ Top of the Rock</span><span class="pri med">Media</span></div><div class="bd">Entrada con horario. ~$42–45.</div><a class="lnk" href="https://www.rockefellercenter.com/buy-tickets" target="_blank">🔗 rockefellercenter.com</a><div class="chk"><input type="checkbox" id="r5"><label for="r5">Comprar Top of the Rock</label></div></div>
 
-<div class="bl"><div class="bt"><span class="bti">🧠 9/11 Museum</span><span class="pri med">Media</span></div><div class="bd">Reservar horario desde la app del pase.</div><div class="chk"><input type="checkbox" id="r5"><label for="r5">Reservar horario 9/11</label></div></div>
+<div class="bl"><div class="bt"><span class="bti">🦖 Museo Historia Natural</span><span class="pri med">Media</span></div><div class="bd">Entrada general ~$37. O pay-what-you-wish (residentes NY).</div><a class="lnk" href="https://www.amnh.org/plan-your-visit" target="_blank">🔗 amnh.org</a><div class="chk"><input type="checkbox" id="r6"><label for="r6">Comprar entrada AMNH</label></div></div>
 
-<div class="bl"><div class="bt"><span class="bti">🏙️ Top of the Rock</span><span class="pri med">Media</span></div><div class="bd">Reservar horario desde la app del pase.</div><div class="chk"><input type="checkbox" id="r6"><label for="r6">Reservar horario TOTR</label></div></div>
+<div class="bl"><div class="bt"><span class="bti">🍝 Cecconi's DUMBO</span><span class="pri med">Media</span></div><div class="bd">Solo si eligen esa opción.</div><a class="lnk" href="https://www.opentable.com/r/cecconisdumbo" target="_blank">🔗 OpenTable</a><div class="chk"><input type="checkbox" id="r7"><label for="r7">Reservar Cecconi's (si aplica)</label></div></div>
 
-<div class="bl"><div class="bt"><span class="bti">🍝 Cecconi's DUMBO</span><span class="pri med">Media</span></div><div class="bd">Solo si eligen esa opción (si van a pizza, no se reserva).</div><div class="chk"><input type="checkbox" id="r7"><label for="r7">Reservar Cecconi's (si aplica)</label></div></div>
+<div class="bl"><div class="bt"><span class="bti">🍸 230 Fifth</span><span class="pri med">Media</span></div><div class="bd">Rooftop jueves noche.</div><a class="lnk" href="https://www.230-fifth.com" target="_blank">🔗 230-fifth.com</a><div class="chk"><input type="checkbox" id="r8"><label for="r8">Reservar 230 Fifth</label></div></div>
 
-<div class="bl"><div class="bt"><span class="bti">🍸 230 Fifth</span><span class="pri med">Media</span></div><div class="bd">Rooftop jueves noche.</div><div class="chk"><input type="checkbox" id="r8"><label for="r8">Reservar 230 Fifth</label></div></div>
-
-<div class="bl"><div class="bt"><span class="bti">🚲 Bici Central Park</span><span class="pri low">Baja</span></div><div class="bd">Se puede arrendar en el momento.</div><div class="chk"><input type="checkbox" id="r9"><label for="r9">Opcional: reservar bicis</label></div></div>
-
+<div class="bl"><div class="bt"><span class="bti">🚲 Bici Central Park</span><span class="pri low">Baja</span></div><div class="bd">Se puede arrendar en el momento o reservar online.</div><a class="lnk" href="https://www.unlimitedbiking.com" target="_blank">🔗 unlimitedbiking.com</a><div class="chk"><input type="checkbox" id="r9"><label for="r9">Opcional: reservar bicis</label></div></div>
 </div>
 </div>
 
 <!-- ============ RESTAURANTES ============ -->
 <div class="sec" id="fo">
-
 <div class="card">
 <div class="ch"><div><div class="ct">🍽️ Restaurantes por día</div><div class="cm">Con opciones para decidir rápido</div></div></div>
 
 <div class="bl"><div class="bti">📅 Martes — Chelsea Market</div><div class="bd">Food hall. Sin reserva. Opciones para todo gusto.</div><div class="spots"><span class="sp">Walk-in</span><span class="sp">~$20–30 c/u</span></div></div>
 
 <div class="bl"><div class="bti">📅 Miércoles — DUMBO (3 opciones)</div>
-<div style="margin-top:8px"><b>⭐ Cecconi's</b> — Italiano con terraza. 55 Water St. Reservable.</div><div class="spots"><span class="sp s">Reservar</span><span class="sp">~$50–65 c/u</span></div>
+<div style="margin-top:8px"><b>⭐ Cecconi's</b> — Italiano con terraza y vista al puente. 55 Water St.</div><div class="spots"><span class="sp s">Reservar</span><span class="sp">~$50–65 c/u</span></div>
 <div style="margin-top:8px"><b>🍕 Juliana's Pizza</b> — Coal-fired legendaria. 19 Old Fulton St.</div><div class="spots"><span class="sp">Hay fila</span><span class="sp">~$15–25 c/u</span></div>
 <div style="margin-top:8px"><b>🍕 Grimaldi's</b> — Rival histórica. 1 Front St.</div><div class="spots"><span class="sp">Hay fila</span><span class="sp">~$15–25 c/u</span></div>
 </div>
@@ -279,7 +250,7 @@ a:hover{text-decoration:underline}
 <div class="bl"><div class="bti">📅 Sábado — Brunch (3 opciones)</div>
 <div style="margin-top:8px"><b>⭐ Norma</b> — Siciliano. Cerca de Kips Bay.</div>
 <div style="margin-top:8px"><b>Daily Provisions</b> — Grab & go (sándwiches + bakery).</div>
-<div style="margin-top:8px"><b>Marseille</b> — Brasserie francesa (si andan por el oeste).</div>
+<div style="margin-top:8px"><b>Marseille</b> — Brasserie francesa (de camino).</div>
 </div>
 
 <div class="bl"><div class="bti">📅 Domingo — West Village (3 opciones)</div>
@@ -287,17 +258,59 @@ a:hover{text-decoration:underline}
 <div style="margin-top:8px"><b>Don Angie</b> — Difícil de reservar (Resy).</div>
 <div style="margin-top:8px"><b>Buvette</b> — Walk-in temprano.</div>
 </div>
-
 </div>
 </div>
 
-<!-- ============ MAPS ============ -->
-<div style="margin-top:16px;text-align:center">
-<p class="sm" style="margin-bottom:6px">📍 Links rápidos</p>
-<a href="https://www.google.com/maps/search/?api=1&query=SUMMIT+One+Vanderbilt" target="_blank">SUMMIT</a> ·
-<a href="https://www.google.com/maps/search/?api=1&query=Top+of+the+Rock+Observation+Deck" target="_blank">Top of the Rock</a> ·
-<a href="https://www.google.com/maps/search/?api=1&query=800+Food+Center+Drive+Bronx+NY+10474" target="_blank">Solomun (Bronx)</a> ·
-<a href="https://www.google.com/maps/search/?api=1&query=120+E+31st+St+New+York+NY" target="_blank">Kips Bay</a>
+<!-- ============ MAPAS ============ -->
+<div class="sec" id="ma">
+
+<div class="card">
+<div class="ch"><div><div class="ct">📍 Mapas — Links directos a Google Maps</div><div class="cm">Toca para abrir en Maps</div></div></div>
+
+<div class="bl"><div class="bti">🏨 Alojamiento</div>
+<div class="mapgrid">
+<div class="mapcard"><b>Upper West Side</b><br><a href="https://www.google.com/maps/search/?api=1&query=Upper+West+Side+Lincoln+Center+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>InterContinental Times Sq</b><br><a href="https://www.google.com/maps/search/?api=1&query=InterContinental+New+York+Times+Square" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>Kips Bay (120 E 31st St)</b><br><a href="https://www.google.com/maps/search/?api=1&query=120+E+31st+St+New+York+NY+10016" target="_blank">📍 Abrir mapa</a></div>
+</div></div>
+
+<div class="bl"><div class="bti">🏙️ Miradores y Museos</div>
+<div class="mapgrid">
+<div class="mapcard"><b>SUMMIT One Vanderbilt</b><br><a href="https://www.google.com/maps/search/?api=1&query=SUMMIT+One+Vanderbilt" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>Top of the Rock</b><br><a href="https://www.google.com/maps/search/?api=1&query=Top+of+the+Rock+Observation+Deck" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>9/11 Museum</b><br><a href="https://www.google.com/maps/search/?api=1&query=9+11+Memorial+Museum+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>Museo Historia Natural</b><br><a href="https://www.google.com/maps/search/?api=1&query=American+Museum+of+Natural+History" target="_blank">📍 Abrir mapa</a></div>
+</div></div>
+
+<div class="bl"><div class="bti">🎧 Evento</div>
+<div class="mapgrid">
+<div class="mapcard"><b>Solomun — Fulton Fish Market</b><br><span class="sm">800 Food Center Dr, Bronx</span><br><a href="https://www.google.com/maps/search/?api=1&query=800+Food+Center+Drive+Bronx+NY+10474" target="_blank">📍 Abrir mapa</a></div>
+</div></div>
+
+<div class="bl"><div class="bti">🍽️ Restaurantes</div>
+<div class="mapgrid">
+<div class="mapcard"><b>Chelsea Market</b><br><a href="https://www.google.com/maps/search/?api=1&query=Chelsea+Market+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>Cecconi's DUMBO</b><br><a href="https://www.google.com/maps/search/?api=1&query=Cecconis+DUMBO+55+Water+St+Brooklyn" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>Juliana's Pizza</b><br><a href="https://www.google.com/maps/search/?api=1&query=Julianas+Pizza+19+Old+Fulton+St+Brooklyn" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>230 Fifth Rooftop</b><br><a href="https://www.google.com/maps/search/?api=1&query=230+Fifth+Rooftop+Bar+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>Café Cluny</b><br><a href="https://www.google.com/maps/search/?api=1&query=Cafe+Cluny+West+Village+NYC" target="_blank">📍 Abrir mapa</a></div>
+</div></div>
+
+<div class="bl"><div class="bti">📸 Lugares icónicos</div>
+<div class="mapgrid">
+<div class="mapcard"><b>High Line</b><br><a href="https://www.google.com/maps/search/?api=1&query=The+High+Line+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>Grand Central</b><br><a href="https://www.google.com/maps/search/?api=1&query=Grand+Central+Terminal+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>Brooklyn Bridge</b><br><a href="https://www.google.com/maps/search/?api=1&query=Brooklyn+Bridge+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>DUMBO / Promenade</b><br><a href="https://www.google.com/maps/search/?api=1&query=DUMBO+Brooklyn+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>Central Park / Bow Bridge</b><br><a href="https://www.google.com/maps/search/?api=1&query=Bow+Bridge+Central+Park" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>SoHo</b><br><a href="https://www.google.com/maps/search/?api=1&query=SoHo+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>West Village</b><br><a href="https://www.google.com/maps/search/?api=1&query=West+Village+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>Chinatown</b><br><a href="https://www.google.com/maps/search/?api=1&query=Chinatown+Manhattan+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>Wall Street</b><br><a href="https://www.google.com/maps/search/?api=1&query=Wall+Street+NYC" target="_blank">📍 Abrir mapa</a></div>
+<div class="mapcard"><b>JFK Airport</b><br><a href="https://www.google.com/maps/search/?api=1&query=JFK+Airport+New+York" target="_blank">📍 Abrir mapa</a></div>
+</div></div>
+
+</div>
 </div>
 
 </div>
@@ -306,19 +319,18 @@ a:hover{text-decoration:underline}
 function sec(id){
 document.querySelectorAll('.sec').forEach(s=>s.classList.remove('on'));
 document.getElementById(id).classList.add('on');
-document.querySelectorAll('.tab').forEach((b,i)=>b.classList.remove('on'));
-const m={it:0,co:1,re:2,fo:3};
+document.querySelectorAll('.tab').forEach(b=>b.classList.remove('on'));
+var m={it:0,co:1,re:2,fo:3,ma:4};
 document.querySelectorAll('.tab')[m[id]].classList.add('on');
 }
 function dy(n){
 document.querySelectorAll('.day').forEach(d=>{d.classList.toggle('on',d.dataset.d==n)});
-document.querySelectorAll('.dt').forEach((b,i)=>b.classList.toggle('on',i===n));
+document.querySelectorAll('.dt').forEach(function(b,i){b.classList.toggle('on',i===n)});
 }
-// Persist checkboxes
-document.querySelectorAll('input[type=checkbox]').forEach(el=>{
-const v=localStorage.getItem('nyc_'+el.id);
+document.querySelectorAll('input[type=checkbox]').forEach(function(el){
+var v=localStorage.getItem('nyc_'+el.id);
 if(v) el.checked=v==='1';
-el.addEventListener('change',()=>localStorage.setItem('nyc_'+el.id,el.checked?'1':'0'));
+el.addEventListener('change',function(){localStorage.setItem('nyc_'+el.id,el.checked?'1':'0')});
 });
 </script>
 </body>
